@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'sitetour-backend'
           slot-name: 'Production'
-          publisqqh-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_573E0A1150484DBBAD7EEE6B888C0328 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_573E0A1150484DBBAD7EEE6B888C0328 }}
           package: '*.jar'
