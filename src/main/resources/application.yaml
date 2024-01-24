@@ -7,8 +7,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-      dialect:
-    database-platform: org.hibernate.dialect.SQLServer2012Dialect
 
 server:
   port: 8081
